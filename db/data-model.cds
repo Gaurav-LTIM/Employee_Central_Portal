@@ -30,20 +30,27 @@ entity EMPLOYEE2CLUSTER
 
 entity CLUSTER 
 {
-    practice: String;
+    key practice: String;
     key JSC: String;
+    key leaf_skills: String;
+    key horizon: String;         
+
+    // HCM-SF, INTEGRATION, S2P
+    
+    //cluster_skill: Association to many CLUSTER2LEAF_SKILLS on cluster_skill.clust = $self;
+    
     //description: String;
-    skills_list: String;
-    horizon: String;
     //cluster_employee: Association to many EMPLOYEE2CLUSTER on cluster_employee.cluster_array.clust = $self; 
-    cluster_skill: Association to many CLUSTER2LEAF_SKILLS on cluster_skill.clust = $self;
+    // cluster_practice: Association to many CLUSTER2LEAF_SKILLS on cluster_practice.pract = $self;
+
 }
 
 
 entity CLUSTER2LEAF_SKILLS
 {
-    clust: Association to CLUSTER;         // ABAP Advance  ABAP Advance
+    clust: String;         // ABAP Advance  ABAP Advance
     skill: Association  to LEAF_SKILLS;    // oData         workflow
+    
 }
 
 entity LEAF_SKILLS

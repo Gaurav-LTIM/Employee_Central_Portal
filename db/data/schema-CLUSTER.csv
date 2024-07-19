@@ -1,3 +1,568 @@
-JSC;practice;skills_list;horizon
-ABAP Advance    ;   ABAP    ;   oData,Workflow  ;   H2
-ABAP BTP    ;	ABAP    ;  Cloud Cockpit,Cloud Optimized ABAP,BTP HTTP Service  ;   H3
+practice;JSC;leaf_skills;horizon
+ABAP	;	ABAP ADVANCED	;	AIF	;	H2
+ABAP	;	ABAP ADVANCED	;	Workflow	;	H2
+ABAP	;	ABAP ADVANCED	;	BOPF	;	H2
+ABAP	;	ABAP ADVANCED	;	Odata	;	H2
+ABAP	;	ABAP ADVANCED	;	BRF	;	H2
+ABAP	;	ABAP BTP	;	Cloud Optimized ABAP	;	H3
+ABAP	;	ABAP BTP	;	GIT	;	H3
+ABAP	;	ABAP BTP	;	BTP HTTP Service	;	H3
+ABAP	;	ABAP BTP	;	RAP	;	H3
+ABAP	;	ABAP BTP	;	CDS	;	H3
+ABAP	;	ABAP BTP	;	ADT for ECLIPSE	;	H3
+ABAP	;	ABAP BTP	;	Cloud Cockpit	;	H3
+ABAP	;	ABAP CORE	;	Print Adobe Forms	;	H1
+ABAP	;	ABAP CORE	;	Dialog Programming	;	H1
+ABAP	;	ABAP CORE	;	Conversions	;	H1
+ABAP	;	ABAP CORE	;	Smartforms	;	H1
+ABAP	;	ABAP CORE	;	Reports	;	H1
+ABAP	;	ABAP CORE	;	Forms - Scripts	;	H1
+ABAP	;	ABAP CORE	;	OO ABAP	;	H1
+ABAP	;	ABAP CORE	;	Enhancements	;	H1
+ABAP	;	ABAP HANA	;	Code-Push-Down	;	H2
+ABAP	;	ABAP HANA	;	RAP	;	H2
+ABAP	;	ABAP HANA	;	AMDP	;	H2
+ABAP	;	ABAP HANA	;	CDS	;	H2
+ABAP	;	ABAP HANA	;	InApp Extensibility	;	H2
+ABAP	;	ABAP HANA	;	ATC Code Remediation	;	H2
+ABAP	;	ABAP HANA	;	AIF	;	H2
+ABAP	;	ABAP HANA	;	Data Migration Cockpit	;	H2
+ABAP	;	ABAP HANA	;	Flexible Workflow	;	H2
+ABAP	;	ABAP HR	;	HR ABAP	;	H1
+ABAP	;	ABAP HR	;	CORE ABAP	;	H1
+ABAP	;	ABAP INTEGRATION	;	File Interfaces	;	H1
+ABAP	;	ABAP INTEGRATION	;	ABAP Proxy	;	H1
+ABAP	;	ABAP INTEGRATION	;	ALE/ IDOC	;	H1
+ABAP	;	ABAP WEBDYNPRO	;	WebDynpro ABAP	;	H1
+ABAP	;	ABAP WEBDYNPRO	;	Floor Plan Manager	;	H1
+BASIS	;	BASIS Advanced Operations	;	Sybase Administration/Installation/DB-Patching/HADR sertup/Backup/Recovery	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP BW	;	H1
+BASIS	;	BASIS Advanced Operations	;	OS Administration for Widnows and Unix based flavours with automation flavor using scripting approach	;	H1
+BASIS	;	BASIS Advanced Operations	;	DB2 Administration/Installation/DB-Patching/HADR sertup/Backup/Recovery	;	H1
+BASIS	;	BASIS Advanced Operations	;	HANA (SoH	;	H1
+BASIS	;	BASIS Advanced Operations	;	Oracle Performance Tuning	;	H1
+BASIS	;	BASIS Advanced Operations	;	Oracle DB Install/DB Patching	;	H1
+BASIS	;	BASIS Advanced Operations	;	Backup/Recovery using RMAN/Export/Import and 3rd party tools	;	H1
+BASIS	;	BASIS Advanced Operations	;	Oracle HA/DR Setup (Data Guard/Golden-Gate)	;	H1
+BASIS	;	BASIS Advanced Operations	;	 S/4HANA	;	H1
+BASIS	;	BASIS Advanced Operations	;	 BW/4HANA) Administration/Performance Tuning/Installation/DB-Patching/HADR sertup/Backup/Recovery	;	H1
+BASIS	;	BASIS Advanced Operations	;	Good experience on  AZURE/AWS/Google Cloud based platforms	;	H1
+BASIS	;	BASIS Advanced Operations	;	Oracle Database Management	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP ECC	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP IDM	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP Portal/Wily Interoscope	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP MII	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP SMP	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP PI/PO	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP BTP	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP SRM/EWM/CRM	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP MDM	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP SLT	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP Web Dispatcher	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP Fiori/SAP Gateway	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP SCM/APO/Live Cache	;	H1
+BASIS	;	BASIS Advanced Operations	;	Solman Managed System Configuration/Charm/Technical Monitoring Setup/Alert tuning	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP Upgrade using Downtime Optimization Techniques for Release/SP/EHP Upgrade	;	H1
+BASIS	;	BASIS Advanced Operations	;	Archiving solutions	;	H1
+BASIS	;	BASIS Advanced Operations	;	Application Integration with SAP and Non SAP platforms	;	H1
+BASIS	;	BASIS Advanced Operations	;	System Refresh using standard SAP tools and thru 3rd party tools like LAMA/Libelle	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP On Rise	;	H1
+BASIS	;	BASIS Advanced Operations	;	Content Server	;	H1
+BASIS	;	BASIS Advanced Operations	;	SAP System Management comprising of Roll outs/Periodic patching or upgrades/EWA analysis and recommendations/Performance Tunning/SAP Security assessment for vulnerability	;	H1
+BASIS	;	BASIS Advanced Operations	;	DR Drill/RTO-RPO assessment/SAP Backup management thru standard SAP tools and 3rd party tools ike Commvault/Tidal/Backint	;	H1
+BASIS	;	BASIS Advanced Operations	;	BOBJ/BODS	;	H1
+BASIS	;	BASIS Advanced Operations	;	MaxDB Administration/Installation/DB-Patching/HADR sertup/Backup/Recovery	;	H1
+BASIS	;	BASIS Advanced Operations	;	MS-SQL Administration/Installation/DB-Patching/HADR sertup/Backup/Recovery	;	H1
+BASIS	;	BASIS Advanced Operations	;	Automation of Repetitive tasks at OS level thru scripting	;	H1
+BASIS	;	BASIS Advanced Operations	;	Experience on SAP Administrative tasks like  Performance Tuning/Monitoring/Troubleshooting/Transport management/Client and OSS administration/Printer management/SSO setup/HEC and Rise on SAP 	;	H1
+BASIS	;	BASIS Cloud Architect	;	Design Cloud Solutions for Infrastructure/Applications	;	H1
+BASIS	;	BASIS Cloud Architect	;	Expertise on Backup/Restore techniques considering RTO-RPO requirements	;	H1
+BASIS	;	BASIS Cloud Architect	;	Expertise on all Infrastructure and network level activities for  Google Cloud based platform	;	H1
+BASIS	;	BASIS Cloud Architect	;	create and execute cloud computing strategies by designing/developing and managing cloud infrastructure	;	H1
+BASIS	;	BASIS Cloud Architect	;	Expertise on all Infrastructure and network level activities for AWS Cloud based platform	;	H1
+BASIS	;	BASIS Cloud Architect	;	Evaluating cloud applications/hardware/software	;	H1
+BASIS	;	BASIS Cloud Architect	;	Expertise on Cluster setup at OS level for HA/DR	;	H1
+BASIS	;	BASIS Cloud Architect	;	Monitoring and Performance tuning of Cloud Infrastructure	;	H1
+BASIS	;	BASIS Cloud Architect	;	Expertise on all Infrastructure and network level activities for  AZURE Cloud based platform	;	H1
+BASIS	;	BASIS Core Operations	;	SAP BW	;	H1
+BASIS	;	BASIS Core Operations	;	SAP SMP	;	H1
+BASIS	;	BASIS Core Operations	;	OS Administration for Widnows and Unix based flavours	;	H1
+BASIS	;	BASIS Core Operations	;	SAP On Rise	;	H1
+BASIS	;	BASIS Core Operations	;	DR Drill/RTO-RPO assessment/SAP Backup management thru standard SAP tools and 3rd party tools ike Commvault/Tidal/Backint	;	H1
+BASIS	;	BASIS Core Operations	;	Content Server	;	H1
+BASIS	;	BASIS Core Operations	;	Solman Managed System Configuration/Charm/Technical Monitoring Setup/Alert tuning	;	H1
+BASIS	;	BASIS Core Operations	;	SAP ECC	;	H1
+BASIS	;	BASIS Core Operations	;	SAP SLT	;	H1
+BASIS	;	BASIS Core Operations	;	SAP MDM	;	H1
+BASIS	;	BASIS Core Operations	;	SAP BTP	;	H1
+BASIS	;	BASIS Core Operations	;	SAP Web Dispatcher	;	H1
+BASIS	;	BASIS Core Operations	;	SAP IDM	;	H1
+BASIS	;	BASIS Core Operations	;	SAP Portal/Wily Interoscope	;	H1
+BASIS	;	BASIS Core Operations	;	SAP SRM/EWM/CRM	;	H1
+BASIS	;	BASIS Core Operations	;	Experience on SAP Administrative tasks like  Performance Tuning/Monitoring/Troubleshooting/Transport management/Client and OSS administration/Printer management/SSO setup/HEC and Rise on SAP 	;	H1
+BASIS	;	BASIS Core Operations	;	SAP PI/PO	;	H1
+BASIS	;	BASIS Core Operations	;	SAP MII	;	H1
+BASIS	;	BASIS Core Operations	;	SAP Fiori/SAP Gateway	;	H1
+BASIS	;	BASIS Core Operations	;	System Refresh using standard SAP tools and thru 3rd party tools like LAMA/Libelle	;	H1
+BASIS	;	BASIS Core Operations	;	SAP System Management comprising of Roll outs/Periodic patching or upgrades/EWA analysis and recommendations/Performance Tunning/SAP Security assessment for vulnerability	;	H1
+BASIS	;	BASIS Core Operations	;	Application Integration with SAP and Non SAP platforms	;	H1
+BASIS	;	BASIS Core Operations	;	SAP SCM/APO/Live Cache	;	H1
+BASIS	;	BASIS Core Operations	;	BOBJ/BODS	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Sybase Administration/Installation/DB-Patching/HADR sertup/Backup/Recovery	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	HANA Memory/Workload Management	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP Upgrade using Downtime Optimization Techniques for Release/SP/EHP Upgrade	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Cloud Storage management	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Migration to Cloud Azure/AWS/Google Cloud	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	HANA Replication Setup/Validation	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	HANA Backup/Recovery	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	HANA DB Encryption	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	HANA Table Partitioning	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	HANA SDA/SDI Integration	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	DB2 Administration/Installation/DB-Patching/HADR sertup/Backup/Recovery	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Hardware Sizing for AZURE/AWS/Google Cloud based platforms	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP BW	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP SMP	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP Portal/Wily Interoscope	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Experience on SAP Administrative tasks like  Performance Tuning/Monitoring/Troubleshooting/Transport management/Client and OSS administration/Printer management/SSO setup/HEC and Rise on SAP 	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	HANA (SoH	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Exposure to 3rd Party Migration tools SNP	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	OS Administration for Widnows and Unix based flavours including Cluster setup for HA/DR	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	MaxDB Administration/Installation/DB-Patching/HADR sertup/Backup/Recovery	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP On Rise	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Solman Managed System Configuration/Charm/Technical Monitoring Setup/Alert tuning	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	BOBJ/BODS	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP ECC	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Content Server	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP SCM/APO/Live Cache	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP PI/PO	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Cloud performnace Tuning 	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	System Refresh using standard SAP tools and thru 3rd party tools like LAMA/Libelle	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	MS-SQL Administration/Installation/DB-Patching/HADR sertup/Backup/Recovery	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	S/4HANA Migration	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP IDM	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	S/4HANA Conversion	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP SRM/EWM/CRM	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Oracle HA/DR Setup (Data Guard/Golden-Gate)	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Cloud Backup/Recovery	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Oracle DB Install/DB Patching	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Oracle Performance Tuning	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Cloud Administation consisitng of NAT Gateway/ VPC/Vnet/Subnet Configuration	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP MDM	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP BTP	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP SLT	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP Web Dispatcher	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Cloud Monitoring Tools	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Oracle Database Management	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP MII	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	 BW/4HANA) Installation/Configuration/Performance Tuning	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	SAP Fiori/SAP Gateway	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	 S/4HANA	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	 Shareplex	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Azure ASR and Load Balancer Setup	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Backup/Recovery using RMAN/Export/Import and 3rd party tools	;	H1
+BASIS	;	BASIS Enterprise Architecture	;	Upgrade to S/4HANA	;	H1
+BASIS	;	BASIS Migrations	;	Homogeneous and Heterogeneous migration tools like classical migration/Backup-Restore/SUM/DMO/DMO-System Move/System Split/R3Load/Migmon/SWPM/Unicode conversion	;	H1
+BASIS	;	BASIS Migrations	;	 Shareplex	;	H1
+BASIS	;	BASIS Migrations	;	Good understanding on SAP PAM and tools used for Installation and Upgrade	;	H1
+BASIS	;	BASIS Migrations	;	Basis understanding on Cloud Monitoring Tools/ASR/Load Balancer/NAT Gateway/VPC/VNet/Subnet Configuration/Storage management/Backup/Recovery/Performance tuning	;	H1
+BASIS	;	BASIS Migrations	;	Downtime Optimization during migration	;	H1
+BASIS	;	BASIS Migrations	;	Hardware Sizing for AZURE/AWS/Google Cloud based platforms	;	H1
+BASIS	;	BASIS Migrations	;	Experience on SAP Administrative tasks like  OS administration/Performance Tuning/Monitoring/Troubleshooting/Transport management/Client and OSS administration/Printer management/SSO setup	;	H1
+BASIS	;	BASIS Migrations	;	Migration of SAP applications to Cloud using 3rd party tools like SNP	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	Readsoft	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	Connect Direct	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	SAP Ariba	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	Informatica	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	sFTP	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	OpenText	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	Paymetric	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	Background Job monitoring tools as CPS Redwood Scheduler/Control-M/UC4/Tidal/Autosys	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	ILM Archiving	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	Taxware	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	Deofast	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	Vertex	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	SSO	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	RevTrac	;	H1
+BASIS	;	BASIS Non-SAP Solutions	;	Signing Certificates	;	H1
+BASIS	;	BASIS UPGRADE / INSTALLATION	;	Hardware Sizing	;	H1
+BASIS	;	BASIS UPGRADE / INSTALLATION	;	Experience on Installation/SP Upgrade/OS-DB upgrade including HA/DR setup and validation	;	H1
+BASIS	;	BASIS UPGRADE / INSTALLATION	;	Good understanding on SAP PAM and tools used for Installation and Upgrade	;	H1
+BASIS	;	BASIS UPGRADE / INSTALLATION	;	Experience on SAP Administrative tasks like  OS administration/Performance Tuning/Monitoring/Troubleshooting/Transport management/Client and OSS administration/Printer management/SSO setup	;	H1
+BASIS	;	BASIS UPGRADE / INSTALLATION	;	Downtime Optimization during upgrade 	;	H1
+BI	;	BI-HANA Advanced	;	SQL Scripting	;	H2
+BI	;	BI-HANA Advanced	;	SAP HANA Core Modelling	;	H2
+BI	;	BI-HANA CORE	;	SAP HANA Core Modelling	;	H2
+BI	;	BW- Planning	;	BPC Technical	;	H2
+BI	;	BW- Planning	;	SAP BW-ON-HANA	;	H2
+BI	;	BW- Planning	;	SAP BW IP	;	H2
+BI	;	BW-CORE	;	WEBI Reporting	;	H1
+BI	;	BW-CORE	;	SAP BW-ON-HANA	;	H1
+BI	;	BW-CORE	;	Modelling	;	H1
+BI	;	BW-CORE	;	ABAP for BW	;	H1
+BI	;	BW-CORE	;	Extraction	;	H1
+BI	;	BW/4HANA Core	;	ABAP for BW	;	H2
+BI	;	BW/4HANA Core	;	Extraction	;	H2
+BI	;	BW/4HANA Core	;	SAP BW/4HANA	;	H2
+BI	;	BW/4HANA Core	;	Modelling	;	H2
+BI	;	BW/4HANA Core	;	SAP BW-ON-HANA	;	H2
+BI	;	SAP-ETL Core	;	SAP Data Services	;	H1
+BI	;	SAP-ETL Core	;	SAP-BODS	;	H1
+BI	;	SAP-DW Advanced	;	SAP DataWarehouse Cloud	;	H3
+BI	;	SAP-Visualization Advanced	;	Lumira	;	H2
+BI	;	SAP-Visualization Advanced	;	SAP SAC	;	H2
+BI	;	SAP-Visualization Advanced	;	SAP BI	;	H2
+BI	;	SAP-Visualization Core	;	WEBI	;	H1
+BI	;	SAP-Visualization Core	;	Lumira	;	H1
+BI	;	SAP-Visualization Core	;	SAP BI	;	H1
+CX	;	CX C4C TECH	;	BODL	;	H3
+CX	;	CX C4C TECH	;	SAP UI Designer	;	H3
+CX	;	CX C4C TECH	;	SAP Cloud Application Studio	;	H3
+CX	;	CX C4C TECH	;	APIs	;	H3
+CX	;	CX C4C TECH	;	OData	;	H3
+CX	;	CX C4C TECH	;	ABSL	;	H3
+CX	;	CX C4C TECH	;	SAP CPI/PI	;	H3
+CX	;	CX C4C-Sales	;	SAP C4C Sales Management	;	H3
+CX	;	CX C4C-Service	;	SAP C4C Service Management	;	H3
+CX	;	CX CPQ	;	SAP CPQ	;	H3
+CX	;	CX CPQ Tech	;	Iron Python	;	H3
+CX	;	CX CPQ Tech	;	SAP CPQ	;	H3
+CX	;	CX CPQ Tech	;	SAP CPQ UI Customizations	;	H3
+CX	;	CX CPQ Tech	;	SAP CPQ APIs	;	H3
+CX	;	CX CPQ Tech	;	Script Workbench	;	H3
+CX	;	CX CPQ Tech	;	Knockout.js	;	H3
+CX	;	CX CRM TECH	;	SAP CRM FM	;	H3
+CX	;	CX CRM TECH	;	OO ABAP	;	H3
+CX	;	CX CRM TECH	;	SAP WEB UI	;	H3
+CX	;	CX CRM TECH	;	SAP BADI	;	H3
+CX	;	CX CRM TECH	;	SAP CRM Middleware	;	H3
+CX	;	CX CRM TECH	;	SAP CRM	;	H3
+CX	;	CX CRM TECH	;	BOL/GENIL	;	H3
+CX	;	CX CRM-Marketing	;	SAP CRM Marketing	;	H3
+CX	;	CX CRM-Sales	;	SAP CRM Sales	;	H3
+CX	;	CX CRM-Service	;	SAP CRM Service	;	H3
+CX	;	CX Hybris Commerce	;	SAP Customer Cockpit Backoffice	;	H3
+CX	;	CX Hybris Commerce	;	Hybris PCM	;	H3
+CX	;	CX Hybris Commerce	;	Hybris WCMS	;	H3
+CX	;	CX Hybris Commerce	;	Hybris ASM	;	H3
+CX	;	CX Hybris TECH	;	Hybris WCMS	;	H3
+CX	;	CX Hybris TECH	;	DATAHUB/Hybris APIs	;	H3
+CX	;	CX Hybris TECH	;	Spring	;	H3
+CX	;	CX Hybris TECH	;	Hybris PCM	;	H3
+CX	;	CX Hybris TECH	;	Hybris Backoffice	;	H3
+CX	;	CX Hybris TECH	;	Eclipse	;	H3
+CX	;	CX Hybris TECH	;	Hibernate	;	H3
+CX	;	CX Hybris TECH	;	SAP CCv1/CCv2	;	H3
+CX	;	CX Hybris TECH	;	Hybris Accelerator	;	H3
+CX	;	CX Hybris TECH	;	Java	;	H3
+Digital	;	DIGITAL BTP - CAP	;	SAP CDS	;	H2
+Digital	;	DIGITAL BTP - CAP	;	SAP CAP	;	H2
+Digital	;	DIGITAL BTP - CICD	;	SAP Piper	;	H3
+Digital	;	DIGITAL BTP - Fiori	;	FIORI on BTP	;	H2
+Digital	;	DIGITAL BTP - Workflow	;	BTP WF Services	;	H2
+Digital	;	DIGITAL SAP FIORI	;	UI5	;	H2
+Digital	;	DIGITAL SAP FIORI	;	FIORI Elements	;	H2
+Digital	;	DIGITAL SAP Mobility	;	SMP	;	H2
+Digital	;	DIGITAL SAP Mobility	;	SAP Mobile Services	;	H2
+Digital	;	DIGITAL SAP PORTAL	;	SAP Enterprise Portal	;	H1
+Digital	;	DIGITAL SAP PORTAL	;	WebDynpro Java	;	H1
+Digital	;	DIGITAL Web Development	;	Python	;	H1
+Digital	;	DIGITAL Web Development	;	JavaScript	;	H1
+Digital	;	DIGITAL Web Development	;	HTML5	;	H1
+Digital	;	DIGITAL Web Development	;	Node JS	;	H1
+Digital	;	DIGITAL Web Development	;	MangoDB	;	H1
+DM-PM	;	SAP-Delivery management	;	SAP Activate	;	H2
+DM-PM	;	SAP-Delivery management	;	SAFe Agile	;	H2
+DM-PM	;	SAP-Delivery management	;	Kanban	;	H2
+DM-PM	;	SAP-Delivery management	;	SAP-Delivery management	;	H2
+DM-PM	;	SAP-Delivery management	;	SCRUM Agile	;	H2
+DM-PM	;	SAP-Program Management	;	SAFe Agile	;	H1
+DM-PM	;	SAP-Program Management	;	SAP-Program Management	;	H1
+DM-PM	;	SAP-Program Management	;	SAP Activate	;	H1
+DM-PM	;	SAP-Program Management	;	Kanban	;	H1
+DM-PM	;	SAP-Program Management	;	SCRUM Agile	;	H1
+DM-PM	;	SAP-Project Management	;	SAP Activate	;	H2
+DM-PM	;	SAP-Project Management	;	SCRUM Agile	;	H2
+DM-PM	;	SAP-Project Management	;	Kanban	;	H2
+DM-PM	;	SAP-Project Management	;	SAFe Agile	;	H2
+DM-PM	;	SAP-Project Management	;	SAP-Project Management	;	H2
+eProcurement	;	ePROCUREMENT ARIBA	;	SAP ARIBA Upstream	;	H2
+eProcurement	;	ePROCUREMENT ARIBA	;	ARIBA Guided Buying	;	H2
+eProcurement	;	ePROCUREMENT ARIBA	;	SAP ARIBA Downstream	;	H2
+eProcurement	;	ePROCUREMENT ARIBA	;	ARIBA Sourcing	;	H2
+eProcurement	;	ePROCUREMENT ARIBA	;	ARIBA Contract	;	H2
+eProcurement	;	ePROCUREMENT ARIBA	;	ARIBA Buying & Invoicing	;	H2
+eProcurement	;	ePROCUREMENT ARIBA	;	ARIBA Supplier LifeCycle Performance	;	H2
+eProcurement	;	ePROCUREMENT ARIBA CIG	;	SAP Cloud Platform Integration	;	H3
+eProcurement	;	ePROCUREMENT ARIBA CIG	;	ARIBA CIG	;	H3
+eProcurement	;	ePROCUREMENT ARIBA CIG	;	ABAP	;	H3
+eProcurement	;	ePROCUREMENT ARIBA CIG	;	SAP ARIBA	;	H3
+eProcurement	;	ePROCUREMENT ARIBA SCC	;	SAP MM	;	H2
+eProcurement	;	ePROCUREMENT ARIBA SCC	;	ARIBA Commerce Automation	;	H2
+eProcurement	;	ePROCUREMENT ARIBA SCC	;	ARIBA Supply Chain Collaboration	;	H2
+eProcurement	;	ePROCUREMENT ARIBA SCC	;	EDI	;	H2
+eProcurement	;	ePROCUREMENT COUPA	;	Coupa Sourcing	;	H2
+eProcurement	;	ePROCUREMENT COUPA	;	Coupa	;	H2
+eProcurement	;	ePROCUREMENT COUPA	;	Coupa Analytics	;	H2
+eProcurement	;	ePROCUREMENT COUPA	;	Coupa SIM	;	H2
+eProcurement	;	ePROCUREMENT COUPA	;	Coupa Procurement	;	H2
+eProcurement	;	ePROCUREMENT FIELDGLASS	;	FIELDGLASS	;	H3
+eProcurement	;	ePROCUREMENT FIELDGLASS	;	Contingent Workforce Management	;	H3
+eProcurement	;	ePROCUREMENT FIELDGLASS	;	Worker Profile	;	H3
+eProcurement	;	ePROCUREMENT FIELDGLASS	;	Vendor Managed Service	;	H3
+eProcurement	;	ePROCUREMENT SRM	;	Self Service Procurement	;	H1
+eProcurement	;	ePROCUREMENT SRM	;	SAP SRM	;	H1
+eProcurement	;	ePROCUREMENT SRM Tech	;	Workflow	;	H1
+eProcurement	;	ePROCUREMENT SRM Tech	;	ABAP	;	H1
+eProcurement	;	ePROCUREMENT SRM Tech	;	SAP SRM Tech	;	H1
+eProcurement	;	ePROCUREMENT iVALUA	;	iValua Source to Contract	;	H3
+eProcurement	;	ePROCUREMENT iVALUA	;	iValua Analytics	;	H3
+eProcurement	;	ePROCUREMENT iVALUA	;	iValua Procurement	;	H3
+eProcurement	;	ePROCUREMENT iVALUA	;	iValua	;	H3
+Finance	;	FINANCE BPC	;	Embedded BPC	;	H2
+Finance	;	FINANCE BPC	;	Integrated Planning	;	H2
+Finance	;	FINANCE BPC	;	BPC Optimized for HANA	;	H2
+Finance	;	FINANCE BPC	;	SAP BPC Planning & Consolidation	;	H2
+Finance	;	FINANCE BPC - Consolidation	;	Real Time Consolidation (RTC)	;	H2
+Finance	;	FINANCE BPC - Consolidation	;	SAP BPC Consolidation	;	H2
+Finance	;	FINANCE BPC - Consolidation	;	BPC Consolidation	;	H2
+Finance	;	FINANCE BPC - Planning	;	Embedded BPC	;	H2
+Finance	;	FINANCE BPC - Planning	;	BPC Optimized for HANA	;	H2
+Finance	;	FINANCE BPC - Planning	;	SAP BPC Planning	;	H2
+Finance	;	FINANCE BPC - Planning	;	Integrated Planning	;	H2
+Finance	;	FINANCE Banking	;	SAP Banking	;	H2
+Finance	;	FINANCE Banking	;	Bank Account Management	;	H2
+Finance	;	FINANCE Banking	;	Bank Analyzer	;	H2
+Finance	;	FINANCE FICO-COFI-ECC	;	Profitability Analysis	;	H1
+Finance	;	FINANCE FICO-COFI-ECC	;	COFI ECC	;	H1
+Finance	;	FINANCE FICO-COFI-ECC	;	Cost Center Accounting	;	H1
+Finance	;	FINANCE FICO-COFI-ECC	;	Product Costing	;	H1
+Finance	;	FINANCE FICO-COFI-ECC	;	Profit Center Accounting	;	H1
+Finance	;	FINANCE FICO-COFI-ECC	;	Internal Order Accounting	;	H1
+Finance	;	FINANCE FICO-COFI-ECC	;	Material Ledger	;	H1
+Finance	;	FINANCE FICO-COFI-ECC	;	Project System Integration	;	H1
+Finance	;	FINANCE FICO-COFI-ECC	;	Transfer Pricing	;	H1
+Finance	;	FINANCE FICO-COFI-ECC	;	Cost Element Accounting	;	H1
+Finance	;	FINANCE FICO-COFI-ECC	;	Investment Management	;	H1
+Finance	;	FINANCE FICO-COFI-S/4HANA	;	FICO S/4HANA	;	H2
+Finance	;	FINANCE FICO-COFI-S/4HANA	;	COFI S/4HANA	;	H2
+Finance	;	FINANCE FICO-Central Finance	;	FICO	;	H2
+Finance	;	FINANCE FICO-Central Finance	;	SAP Central Finance	;	H2
+Finance	;	FINANCE FICO-ECC	;	Taxation (Country Specific)	;	H1
+Finance	;	FINANCE FICO-ECC	;	Accounts Payable	;	H1
+Finance	;	FINANCE FICO-ECC	;	Banking Interfaces	;	H1
+Finance	;	FINANCE FICO-ECC	;	FICO ECC	;	H1
+Finance	;	FINANCE FICO-ECC	;	Accounts Receivable	;	H1
+Finance	;	FINANCE FICO-ECC	;	Bank Accounting	;	H1
+Finance	;	FINANCE FICO-ECC	;	Asset Accounting	;	H1
+Finance	;	FINANCE FICO-ECC	;	Contract Accounting	;	H1
+Finance	;	FINANCE FICO-ECC	;	Flexible Real Estate Management	;	H1
+Finance	;	FINANCE FICO-ECC	;	Funds Management	;	H1
+Finance	;	FINANCE FICO-ECC	;	Vendor Invoice Management	;	H1
+Finance	;	FINANCE FICO-ECC	;	New General Ledger	;	H1
+Finance	;	FINANCE FICO-ECC	;	Classic General Ledger	;	H1
+Finance	;	FINANCE FICO-ECC	;	Revenue Accounting & Reporting (RAR)	;	H1
+Finance	;	FINANCE FICO-ECC	;	Automatic Payment	;	H1
+Finance	;	FINANCE FICO-ECC	;	Travel Management	;	H1
+Finance	;	FINANCE FICO-ECC	;	Lease Accounting	;	H1
+Finance	;	FINANCE FICO-Group Reporting	;	SAP Group Reporting	;	H2
+Finance	;	FINANCE FICO-REFX	;	SAP RE-FX	;	H2
+Finance	;	FINANCE FICO-S/4HANA	;	New Asset Accounting	;	H2
+Finance	;	FINANCE FICO-S/4HANA	;	FICO S/4HANA	;	H2
+Finance	;	FINANCE FICO-S/4HANA	;	Account Based Profitability Analysis	;	H2
+Finance	;	FINANCE FICO-S/4HANA	;	Material Ledger2	;	H2
+Finance	;	FINANCE FICO-S/4HANA	;	S/4HANA Migration	;	H2
+Finance	;	FINANCE FSCM-BCM	;	SAP Bank Communication Management (BCM)	;	H2
+Finance	;	FINANCE FSCM-Credit-Collection-Dispute	;	SAP Credit Management	;	H2
+Finance	;	FINANCE FSCM-Credit-Collection-Dispute	;	SAP FSCM	;	H2
+Finance	;	FINANCE FSCM-Credit-Collection-Dispute	;	SAP Collection & Dispute Management	;	H2
+Finance	;	FINANCE FSCM-Treasury	;	Hedge Accounting	;	H2
+Finance	;	FINANCE FSCM-Treasury	;	Transaction Manager : Money Market Securities	;	H2
+Finance	;	FINANCE FSCM-Treasury	;	Exposure Management	;	H2
+Finance	;	FINANCE FSCM-Treasury	;	Cash Management	;	H2
+Finance	;	FINANCE FSCM-Treasury	;	Forex & Hedging	;	H2
+Finance	;	FINANCE FSCM-Treasury	;	Liquidity Forecast	;	H2
+Finance	;	FINANCE FSCM-Treasury	;	SAP TRM	;	H2
+Finance	;	FINANCE FSCM-Treasury	;	Credit Risk Analyzer	;	H2
+Finance	;	FINANCE FSCM-Treasury	;	In House Cash	;	H2
+Finance	;	FINANCE FSCM-Treasury	;	Market Risk Analyzer	;	H2
+Finance	;	FINANCE Insurance	;	SAP Insurance	;	H2
+Finance	;	FINANCE Insurance-FICA	;	SAP FICA	;	H2
+Finance	;	FINANCE Insurance-FSCD	;	SAP FSCD	;	H2
+Finance	;	FINANCE SAC	;	Planning	;	H2
+Finance	;	FINANCE SAC	;	SAP SAC Planning	;	H2
+Finance	;	FINANCE VIM	;	VIM-Open text	;	H2
+HCM-SF	;	HCM - SF	;	SAP SF Suite	;	H2
+HCM-SF	;	HCM - SF	;	SAP HCM	;	H2
+HCM-SF	;	HCM CORE	;	Core SAP HCM	;	H1
+HCM-SF	;	HCM CORE	;	SAP HCM OM	;	H1
+HCM-SF	;	HCM CORE	;	SAP HCM MSS	;	H1
+HCM-SF	;	HCM CORE	;	SAP HCM ESS	;	H1
+HCM-SF	;	HCM CORE	;	SAP HCM PA	;	H1
+HCM-SF	;	HCM CORE - S/4HANA	;	OM	;	H2
+HCM-SF	;	HCM CORE - S/4HANA	;	ESS	;	H2
+HCM-SF	;	HCM CORE - S/4HANA	;	Core SAP HCM	;	H2
+HCM-SF	;	HCM CORE - S/4HANA	;	MSS	;	H2
+HCM-SF	;	HCM CORE - S/4HANA	;	S/4HANA Integration	;	H2
+HCM-SF	;	HCM CORE - S/4HANA	;	PA	;	H2
+HCM-SF	;	HCM CORE2	;	OM	;	H1
+HCM-SF	;	HCM CORE2	;	PA	;	H1
+HCM-SF	;	HCM CORE2	;	ESS/MSS	;	H1
+HCM-SF	;	HCM CORE2	;	SAP HCM Learning Solutions	;	H1
+HCM-SF	;	HCM Payroll	;	SAP HCM Payroll Management	;	H2
+HCM-SF	;	HCM SuccessFactors - Compensation	;	SAP SuccessFactors Compensation	;	H2
+HCM-SF	;	HCM SuccessFactors - EC Payroll	;	SAP SuccessFactors EC-ECP Integrations	;	H2
+HCM-SF	;	HCM SuccessFactors - EC Payroll	;	ECP Reporting	;	H2
+HCM-SF	;	HCM SuccessFactors - EC Payroll	;	SAP SuccessFactors EC Payroll	;	H2
+HCM-SF	;	HCM SuccessFactors - Employee Central	;	SAP SuccessFactors EC Integrations	;	H2
+HCM-SF	;	HCM SuccessFactors - Employee Central	;	EC Report Story	;	H2
+HCM-SF	;	HCM SuccessFactors - Employee Central	;	SAP SuccessFactors EC Benefits	;	H2
+HCM-SF	;	HCM SuccessFactors - Employee Central	;	SAP SuccessFactors EC Time Off	;	H2
+HCM-SF	;	HCM SuccessFactors - Employee Central	;	SAP SuccessFactors EC Core	;	H2
+HCM-SF	;	HCM SuccessFactors - LMS	;	SF LMS Integrations	;	H2
+HCM-SF	;	HCM SuccessFactors - LMS	;	 ORD	;	H2
+HCM-SF	;	HCM SuccessFactors - LMS	;	LMS Reports - Plateu 	;	H2
+HCM-SF	;	HCM SuccessFactors - LMS	;	 SuccessFactors JAM	;	H2
+HCM-SF	;	HCM SuccessFactors - LMS	;	SAP SuccessFactors LMS	;	H2
+HCM-SF	;	HCM SuccessFactors - LMS	;	SAP LITMOS	;	H2
+HCM-SF	;	HCM SuccessFactors - Onboarding	;	SAP SuccessFactors Onboarding	;	H2
+HCM-SF	;	HCM SuccessFactors - PMGM	;	SAP SuccessFactors PMGM	;	H2
+HCM-SF	;	HCM SuccessFactors - Recruitment	;	SF Recruitment Reporting	;	H2
+HCM-SF	;	HCM SuccessFactors - Recruitment	;	SF Recruitment Marketing	;	H2
+HCM-SF	;	HCM SuccessFactors - Recruitment	;	SAP SuccessFactors Recruiting	;	H2
+HCM-SF	;	HCM SuccessFactors - Reporting & Analytics	;	IAS Tenant Upgrade	;	H2
+HCM-SF	;	HCM SuccessFactors - Reporting & Analytics	;	SAP SuccessFactors Reporting & Analytics	;	H2
+HCM-SF	;	HCM SuccessFactors - Reporting & Analytics	;	Report Strory	;	H2
+HCM-SF	;	HCM SuccessFactors - Succession Planning	;	SAP SuccessFactors Succession Planning	;	H2
+HCM-SF	;	HCM SuccessFactors - Succession Planning	;	SAP SuccessFactors Career development plan	;	H2
+HCM-SF	;	HCM SuccessFactors - Workforce Analytics	;	SAP SuccessFactors Workforce Analytics	;	H3
+HCM-SF	;	HCM SuccessFactors - Workforce Planning	;	SAP SuccessFactors Workforce Planning	;	H3
+HCM-SF	;	HCM T&E Solutions - Concur	;	Concur- Expense Management	;	H2
+HCM-SF	;	HCM T&E Solutions - Concur	;	Concur-Travel Management	;	H2
+HCM-SF	;	HCM Talent Management	;	SAP HCM Performance Goal Management	;	H2
+HCM-SF	;	HCM Talent Management	;	SAP HCM Learning Solutions	;	H2
+HCM-SF	;	HCM Talent Management	;	SAP HCM Benefits	;	H2
+HCM-SF	;	HCM Talent Management	;	ESS/MSS	;	H2
+HCM-SF	;	HCM Talent Management	;	SAP HCM Compensation 	;	H2
+HCM-SF	;	HCM Time Solutions - Kronos	;	Kronos Integrations	;	H2
+HCM-SF	;	HCM Time Solutions - Kronos	;	Kronos- Time and attendance management	;	H2
+HCM-SF	;	HCM Time Solutions - Workforce Software	;	Workforce Time and Attendance	;	H2
+HCM-SF	;	HCM Time Solutions - Workforce Software	;	WFS integrations	;	H2
+Integration	;	INTEGRATION Ariba Integration	;	ABAP Customization	;	H1
+Integration	;	INTEGRATION Ariba Integration	;	XSLT Mapping	;	H1
+Integration	;	INTEGRATION Ariba Integration	;	Ariba Overview	;	H1
+Integration	;	INTEGRATION Ariba Integration	;	Cloud Integration Gateway	;	H1
+Integration	;	INTEGRATION CPI - API	;	Groovy Scripts	;	H1
+Integration	;	INTEGRATION CPI - API	;	Swagger	;	H1
+Integration	;	INTEGRATION CPI - API	;	API Management	;	H1
+Integration	;	INTEGRATION CPI - API	;	REST/OData	;	H1
+Integration	;	INTEGRATION CPI - Integration Suite	;	API Management	;	H1
+Integration	;	INTEGRATION CPI - Integration Suite	;	Integration Assessment	;	H1
+Integration	;	INTEGRATION CPI - Integration Suite	;	Groovy Scripts	;	H1
+Integration	;	INTEGRATION CPI - Integration Suite	;	OData	;	H1
+Integration	;	INTEGRATION CPI - Integration Suite	;	Open Connector	;	H1
+Integration	;	INTEGRATION CPI - Integration Suite	;	Core SAP CPI	;	H1
+Integration	;	INTEGRATION CPI - Integration Suite	;	Trading Partner Management	;	H1
+Integration	;	INTEGRATION CPI - Integration Suite	;	Integration Advisor	;	H1
+Integration	;	INTEGRATION CPI - Open connector	;	CPI Open Connector	;	H1
+Integration	;	INTEGRATION CPI - Open connector	;	Swagger	;	H1
+Integration	;	INTEGRATION CPI - Open connector	;	REST API	;	H1
+Integration	;	INTEGRATION CPI - TPM	;	EDI (X12/EDIFACT)	;	H1
+Integration	;	INTEGRATION CPI - TPM	;	Integration Advisor	;	H1
+Integration	;	INTEGRATION CPI - TPM	;	TPM	;	H1
+Integration	;	INTEGRATION CPI - TPM	;	ALE/ IDOC	;	H1
+Integration	;	INTEGRATION PI-PO	;	ABAP Proxy	;	H1
+Integration	;	INTEGRATION PI-PO	;	Migration Cockpit	;	H1
+Integration	;	INTEGRATION PI-PO	;	JAVA	;	H1
+Integration	;	INTEGRATION PI-PO	;	Security Protocols	;	H1
+Integration	;	INTEGRATION PI-PO	;	CORE PI-PO	;	H1
+Integration	;	INTEGRATION PI-PO BPM-BRM	;	SAP BPM	;	H1
+Integration	;	INTEGRATION PI-PO BPM-BRM	;	SAP BRM	;	H1
+Integration	;	INTEGRATION PI-PO EDI	;	EDI (X12/EDIFACT)	;	H1
+Integration	;	INTEGRATION PI-PO EDI	;	Trading Partner Management	;	H1
+Integration	;	INTEGRATION PI-PO EDI	;	SAP B2B Add-on	;	H1
+Integration	;	INTEGRATION PI-PO EDI	;	ALE/ IDOC	;	H1
+MFG	;	S/4HANA MFG GATP	;	S/4HANA-AATP	;	H2
+MFG	;	S/4HANA MFG GATP	;	Product Allocation	;	H2
+MFG	;	S/4HANA MFG GATP	;	APO-GATP	;	H2
+MFG	;	S/4HANA MFG GATP	;	SAP APO - PPDS	;	H2
+MFG	;	S/4HANA MFG GATP	;	Back Order Processing ( BOP )	;	H2
+MFG	;	S/4HANA MFG GATP	;	S/4HANA-GATP	;	H2
+MFG	;	S/4HANA MFG GATP	;	APO-GATP-MATP	;	H2
+MFG	;	S/4HANA MFG GATP	;	APO-GATP-RBA	;	H2
+MFG	;	S/4HANA MFG PPDS	;	S/4HANA-PPDS	;	H2
+MFG	;	S/4HANA MFG PPDS	;	SAP PP	;	H2
+MFG	;	S/4HANA MFG PPDS	;	CIF	;	H2
+MFG	;	S/4HANA MFG PPDS	;	S/4HANA-PP	;	H2
+MFG	;	S/4HANA MFG PPDS	;	S/4HANA e-PPDS	;	H2
+MFG	;	SAP Opentext-xECM	;	SAP ECC OpenText-xECM	;	H2
+MFG	;	SAP Opentext-xECM	;	SAP S/4HANA OpenText-xECM	;	H2
+MFG	;	SAP Opentext-xECM	;	SAP Application Support 	;	H2
+MFG	;	SAP Opentext-xECM	;	SAP Implementation 	;	H2
+SOLMAN	;	SAP AUTOMATION - Automation Anywhere	;	SAP SOLMAN	;	H2
+SOLMAN	;	SAP AUTOMATION - Automation Anywhere	;	RPA Automation Anywhere	;	H2
+SOLMAN	;	SAP AUTOMATION - BluePrism	;	RPA BluePrism	;	H2
+SOLMAN	;	SAP AUTOMATION - BluePrism	;	SAP SOLMAN	;	H2
+SOLMAN	;	SAP AUTOMATION - CAI	;	SAP CAI	;	H3
+SOLMAN	;	SAP AUTOMATION - IRPA	;	SAP IRPA	;	H2
+SOLMAN	;	SAP AUTOMATION - UiPATH	;	RPA UiPath	;	H2
+SOLMAN	;	SAP AUTOMATION - UiPATH	;	SAP SOLMAN	;	H2
+SOLMAN	;	SAP TESTING - CBTA	;	SAP CBTA	;	H1
+SOLMAN	;	SAP TESTING - CBTA	;	VB Scripting	;	H1
+SOLMAN	;	SAP TESTING - MANUAL	;	Manual Testing	;	H1
+SOLMAN	;	SAP TESTING - MANUAL	;	SAP Testing	;	H1
+SOLMAN	;	SAP TESTING - TOSCA	;	Tosca	;	H2
+SOLMAN	;	SAP TESTING - TOSCA	;	Worksoft	;	H2
+SOLMAN	;	SAP TESTING - UFT	;	VB Scripting	;	H2
+SOLMAN	;	SAP TESTING - UFT	;	SAP CBTA	;	H2
+SOLMAN	;	SAP TESTING - UFT	;	UFT	;	H2
+SOLMAN	;	SAP TESTING - UFT	;	Worksoft	;	H2
+SOLMAN	;	SAP TESTING - WORKSOFT	;	Tosca	;	H2
+SOLMAN	;	SAP TESTING - WORKSOFT	;	Worksoft	;	H2
+SOLMAN	;	SAP TESTING Management	;	SAP CBTA	;	H2
+SOLMAN	;	SAP TESTING Management	;	UFT	;	H2
+SOLMAN	;	SAP TESTING Management	;	Tosca	;	H2
+SOLMAN	;	SAP TESTING Management	;	SAP Testing	;	H2
+SOLMAN	;	SAP TESTING Management	;	Test Management	;	H2
+SOLMAN	;	SAP TESTING Management	;	Worksoft	;	H2
+SOLMAN	;	SAP TESTING Solutions	;	SAP Testing	;	H2
+SOLMAN	;	SAP TESTING Solutions	;	Worksoft	;	H2
+SOLMAN	;	SAP TESTING Solutions	;	UFT	;	H2
+SOLMAN	;	SAP TESTING Solutions	;	SAP CBTA	;	H2
+SOLMAN	;	SAP TESTING Solutions	;	Tosca	;	H2
+SECURITY	;	SAP Security- ADVANCED SECURITY	;	GRC AC/PC CONFIGURATION (ARA/ARM/EAM/BRM)	;	H1
+SECURITY	;	SAP Security- ADVANCED SECURITY	;	POST UPGRADE SU25 EXECUTION Step 2 (all steps)	;	H1
+SECURITY	;	SAP Security- ADVANCED SECURITY	;	UAR CONFIGURATION (Automatic/Manual)/Template  creation	;	H1
+SECURITY	;	SAP Security- ADVANCED SECURITY	;	CUSTOM RULESET CREATION	;	H1
+SECURITY	;	SAP Security- ADVANCED SECURITY	;	SAP USER LICENSE MEASUREMENT	;	H1
+SECURITY	;	SAP Security- ADVANCED SECURITY	;	GRC BACKGROUND JOBS variant creation/scheduling	;	H1
+SECURITY	;	SAP Security- ADVANCED SECURITY	;	MSMP/BRF Configuration	;	H1
+SECURITY	;	SAP Security- ADVANCED SECURITY	;	ROLE DESIGN/REDESIGN & BUILD	;	H1
+SECURITY	;	SAP Security- ADVANCED SECURITY	;	GRC AC/PC TROUBLSHOOTING	;	H1
+SECURITY	;	SAP Security- ADVANCED SECURITY	;	SOD CONFIGURATION AND ANLAYSIS	;	H1
+SECURITY	;	SAP Security- ADVANCED SECURITY	;	BI/HR security (user management/role management)	;	H1
+SECURITY	;	SAP Security- SECURITY CORE	;	TROUBLSHOOTING - STAUTHTRACE / ST01	;	H1
+SECURITY	;	SAP Security- SECURITY CORE	;	SAP SUPPORT USER (S-USER) MAINTENANCE	;	H1
+SECURITY	;	SAP Security- SECURITY CORE	;	SU24 SETTINGS	;	H1
+SECURITY	;	SAP Security- SECURITY CORE	;	MASS USER MAINTENANCE	;	H1
+SECURITY	;	SAP Security- SECURITY CORE	;	SAP ROLE DOWNLOAD / UPLOAD / TRANSPORT	;	H1
+SECURITY	;	SAP Security- SECURITY CORE	;	SAP USER ADMINISTRATION	;	H1
+SECURITY	;	SAP Security- SECURITY CORE	;	SUIM REPORT EXTRACTION 	;	H1
+SECURITY	;	SAP Security- SECURITY CORE	;	SECURITY CONTROLS MONITORING 	;	H1
+SECURITY	;	SAP Security- SECURITY CORE	;	BW / HR/ Fiori/ BO-BI SECURITY 	;	H1
+SECURITY	;	SAP Security- SECURITY CORE	;	SECURITY AUDIT HANDLING	;	H1
+SECURITY	;	SAP Security- SECURITY CORE	;	SAP ROLES ADMINISTRATION 	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	S/4 HANA ROLE MANAGEMENT	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	GRC AC/PC CONFIGURATION (ARA/ARM/EAM/BRM)	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	ROLE DESIGN & BUILD	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	BI/HR security (user management/role management)	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	SYMANTEC ACTION MAPPING	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	GRC INTEGRATION WITH NON SAP SYSTEMS - (GREENLIGHT ADAPTER)	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	ODATA SERVICES	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	Fiori APP CATALOGS/GROUPS	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	UAR CONFIGURATION (Automatic/Manual)/Template  creation	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	SYMENTEC OBJECTS	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	HANA DB USERS / Previlages Management	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	SOD CONFIGURATION/ANLAYSIS and CUSTOM RULESET CREATION	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	GRC AC/PC  INTEGRATION WITH S/4 HANA SYSTEMS 	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	Fiori ROLE DESIGN -EMBEDDED  & CENTRAL HUB	;	H1
+SECURITY	;	SAP Security- SECURITY S/4 HANA	;	CLOUD INTEGRATION	;	H1
