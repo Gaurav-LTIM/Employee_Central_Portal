@@ -43,8 +43,16 @@ service main {
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.LEAF_SKILLS;
 
+    entity  Employee_Skill_Detail @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.EMPLOYEE_SKILL_DETAIL;
+
     
     };
+    
 
 //  @(restrict: [
 //     { grant: ['*'], to: 'Admin' },
