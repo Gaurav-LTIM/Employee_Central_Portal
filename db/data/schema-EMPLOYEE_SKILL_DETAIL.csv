@@ -1,1 +1,2 @@
-JSC,skill,empl_PS_NO,rating,exp_years,exp_months
+empl_PS_NO;JSC;skill;rating;exp_years;exp_months;bEditable;btnEditable
+10000001;	ABAP ADVANCED	;	AIF	;2;1;0;false;false

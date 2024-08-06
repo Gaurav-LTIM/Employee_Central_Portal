@@ -1,4 +1,4 @@
-using {cuid} from '@sap/cds/common';
+using {cuid,managed} from '@sap/cds/common';
 
 namespace schema ;
 
@@ -10,31 +10,16 @@ entity INDUSTRIES
 
 // ------------------------------------ 4 ------------------------------------------------------//
 
-entity EMPLOYEE2CLUSTER 
-{
-    key empl: Association to EMPLOYEES;       // 10000001        10000001
-    cluster_array: array of
-    {
-        clust_JSC: String;                    // ABAP Advance   ABAP Advance
-        employee_skill: array of 
-        {
-            skill:String ;                     // oData          Workflow
-            rating: Integer default '0' ;       // 3            2
-            exp_years: Integer;               // 1              0
-            exp_months: Integer;              // 6              6
-            bEditable: Boolean default false ;
-        }
-    }
-}
-
 entity EMPLOYEE_SKILL_DETAIL
 {
-    empl: Association to EMPLOYEES;     // 10000001        10000001
+    key empl: Association to EMPLOYEES;     // 10000001        10000001
     key JSC: String;
-    key skill:String;                           // oData          Workflow
+    key skill:String;                       // oData          Workflow
     rating: Integer;                        // 3            2
     exp_years: Integer;                     // 1              0
-    exp_months: Integer;                    // 6              6        
+    exp_months: Integer;                    // 6              6      
+    bEditable: Boolean default false;
+    btnEditable: Boolean default false;  
 }
 
 entity CLUSTER 
@@ -43,27 +28,39 @@ entity CLUSTER
     key JSC: String;
     key leaf_skills: String;
     key horizon: String;         
-
 }
 
-entity CLUSTER2LEAF_SKILLS
+entity CLUSTER_SKILL_DETAIL : cuid,managed
 {
-    clust: String;         // ABAP Advance  ABAP Advance
-    skill: Association  to LEAF_SKILLS;    // oData         workflow
+    key ps_no: Int32;
+    key practice: String;
+    key JSC: String;
+    key leaf_skills: String;
+    horizon: String;
+    rating: Integer;                        // 3            2
+    exp_years: Integer;                     // 1              0
+    exp_months: Integer;
+    //-------------------------------------------------------------------------------------//        
+    to_employees : Association to many EMPLOYEES on to_employees.PS_NO =  ps_no;
+    to_employees2cluster_skill_detail: Association to many EMPLOYEES2CLUSTER_SKILL_DETAIL on $self = to_employees2cluster_skill_detail.from_cluster;
+    //-----------------------------------------------------------------------------------------------------------------//
     
 }
 
-entity LEAF_SKILLS
+entity EMPLOYEES2CLUSTER_SKILL_DETAIL: cuid,managed
 {
-    key leaf_skills: String;              // oData          workflow
-    leaf_cluster : Association to many CLUSTER2LEAF_SKILLS on leaf_cluster.skill= $self;
+    from_cluster : Association to CLUSTER_SKILL_DETAIL;
+    from_employee: Association to EMPLOYEES;
 }
-
 entity EMPLOYEES
 {   
 
-    employee_cluster : Association to many EMPLOYEE2CLUSTER on employee_cluster.empl = $self;   // -- 4
-    employee_skill_detail : Association to many EMPLOYEE2CLUSTER on employee_skill_detail.empl = $self;
+    employee_skill_detail : Association to many EMPLOYEE_SKILL_DETAIL on employee_skill_detail.empl = $self;
+
+//-----------------------------------------------------------------------------------------------------------------//
+    to_cluster_skill_detail: Association to CLUSTER_SKILL_DETAIL;
+    to_employees2cluster_skill_detail: Association to many EMPLOYEES2CLUSTER_SKILL_DETAIL on $self = to_employees2cluster_skill_detail.from_employee;
+//-----------------------------------------------------------------------------------------------------------------//
 
     base_sbu: String;
     deputed_bu: String;
@@ -84,7 +81,7 @@ entity EMPLOYEES
     base_location: String;
     delivery_unit: String;
 
-    key PS_NO: Int32;
+    key PS_NO: Integer;
     employee_name: String;
     email: String @assert.format : '^[a-z0-9_.±]+@[a-z0-9-]+.[a-z0-9-.]+$';
     grade: String;
@@ -125,4 +122,17 @@ entity EMPLOYEES
     secondary_skill_cluster: String;
     project_skill_cluster: String;
 
+}
+
+entity CLUSTER2LEAF_SKILLS
+{
+    clust: String;         // ABAP Advance  ABAP Advance
+    skill: Association  to LEAF_SKILLS;    // oData         workflow
+    
+}
+
+entity LEAF_SKILLS
+{
+    key leaf_skills: String;              // oData          workflow
+    leaf_cluster : Association to many CLUSTER2LEAF_SKILLS on leaf_cluster.skill= $self;
 }

@@ -1,3 +1,4 @@
+
 using schema as sh from '../db/data-model';
 
 service main {
@@ -14,13 +15,6 @@ service main {
             UpdateRestrictions : { Updatable:true },
             DeleteRestrictions : {Deletable:true},
         }) as projection on sh.EMPLOYEES;
-
-    entity  Employee2Cluster @(
-        Capabilities: {
-        InsertRestrictions: {Insertable: true},
-        UpdateRestrictions: {Updatable: true},
-        DeleteRestrictions: {Deletable: true}
-    }) as projection on sh.EMPLOYEE2CLUSTER;
 
     entity  Cluster @(
         Capabilities: {
@@ -50,7 +44,13 @@ service main {
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_SKILL_DETAIL;
 
-    
+    entity  Cluster_Skill_Detail @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.CLUSTER_SKILL_DETAIL;
+
     };
     
 
