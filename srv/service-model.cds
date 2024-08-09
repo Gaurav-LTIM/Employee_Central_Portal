@@ -51,6 +51,34 @@ service main {
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.CLUSTER_SKILL_DETAIL;
 
+    entity  Employee_Industries_Experience @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.EMPLOYEE_INDUSTRIES_EXPERIENCE;
+
+     entity  Employee_CV_Experience_Data @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.EMPLOYEE_CV_EXPERIENCE_DATA;
+
+    entity  Employee_Education_Detail @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.EMPLOYEE_EDUCATION_DETAIL;
+
+    entity  Employee_Professional_summary @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.EMPLOYEE_PROFESSIONAL_SUMMARY;
+
     };
     
 
