@@ -2,12 +2,6 @@
 using schema as sh from '../db/data-model';
 
 service main {
-    entity  Industries @(
-        Capabilities: {
-        InsertRestrictions: {Insertable: true},
-        UpdateRestrictions: {Updatable: true},
-        DeleteRestrictions: {Deletable: true}
-    }) as projection on sh.INDUSTRIES;
 
     entity Employees @(
         Capabilities:{
@@ -23,19 +17,40 @@ service main {
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.CLUSTER;
 
-    entity  Cluster2Leaf_Skills @(
+    entity  Industries @(
         Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
-    }) as projection on sh.CLUSTER2LEAF_SKILLS;
+    }) as projection on sh.INDUSTRIES;
 
-    entity  Leaf_Skills @(
+    entity  Customer @(
         Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
-    }) as projection on sh.LEAF_SKILLS;
+    }) as projection on sh.CUSTOMER;
+
+    entity  Product @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.PRODUCT;
+
+    entity  Language @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.LANGUAGE;
+
+    entity  Country @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.COUNTRY;
 
     entity  Employee_Skill_Detail @(
         Capabilities: {
@@ -44,13 +59,6 @@ service main {
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_SKILL_DETAIL;
 
-    entity  Cluster_Skill_Detail @(
-        Capabilities: {
-        InsertRestrictions: {Insertable: true},
-        UpdateRestrictions: {Updatable: true},
-        DeleteRestrictions: {Deletable: true}
-    }) as projection on sh.CLUSTER_SKILL_DETAIL;
-
     entity  Employee_Industries_Experience @(
         Capabilities: {
         InsertRestrictions: {Insertable: true},
@@ -58,6 +66,35 @@ service main {
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_INDUSTRIES_EXPERIENCE;
 
+    entity  Employee_Customer_Experience @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.EMPLOYEE_CUSTOMER_EXPERIENCE;
+
+    entity  Employee_Product_Experience @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.EMPLOYEE_PRODUCT_EXPERIENCE;
+
+    entity  Employee_Language_Experience @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.EMPLOYEE_LANGUAGE_EXPERIENCE;
+
+    entity  Employee_Country_Experience @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.EMPLOYEE_COUNTRY_EXPERIENCE;
+
+//--------------------------------------------Sitansu-----------------------------------------------------//
      entity  Employee_CV_Experience_Data @(
         Capabilities: {
         InsertRestrictions: {Insertable: true},
@@ -72,7 +109,7 @@ service main {
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_EDUCATION_DETAIL;
 
-    entity  Employee_Professional_summary @(
+    entity  Employee_Professional_Summary @(
         Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},

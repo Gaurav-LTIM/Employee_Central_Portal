@@ -1,2 +1,5 @@
-empl_PS_NO;JSC;skill;rating;exp_years;exp_months;bEditable;btnEditable
-10000001;	ABAP ADVANCED	;	AIF	;2;1;0;false;false
+empl_PS_NO;JSC;skill;rating;exp_years;exp_months;bEditable
+10000001;	ABAP ADVANCED	;	AIF	;2;1;0;false
+10735251;	ABAP BTP	;	CDS	;2;1;0;false
+10735098;	ABAP ADVANCED	;	Odata	;2;1;0;false
+10740673;	ABAP CORE	;	Conversions	;2;1;0;false

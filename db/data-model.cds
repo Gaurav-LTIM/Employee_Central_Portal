@@ -6,8 +6,13 @@ entity EMPLOYEES
 {   
 
     employee_skill_detail : Association to many EMPLOYEE_SKILL_DETAIL on employee_skill_detail.empl = $self;
-    employee_cv_experience_data:Association to many EMPLOYEE_CV_EXPERIENCE_DATA on employee_cv_experience_data.empl = $self;
     employee_industries_experience: Association to many EMPLOYEE_INDUSTRIES_EXPERIENCE on employee_industries_experience.empl = $self;
+    employee_customer_experience: Association to many EMPLOYEE_CUSTOMER_EXPERIENCE on employee_customer_experience.empl = $self;
+    employee_country_experience: Association to many EMPLOYEE_COUNTRY_EXPERIENCE on employee_country_experience.empl = $self;
+    employee_product_experience: Association to many EMPLOYEE_PRODUCT_EXPERIENCE on employee_product_experience.empl = $self;
+    employee_language_experience: Association to many EMPLOYEE_LANGUAGE_EXPERIENCE on employee_language_experience.empl = $self;
+    
+    employee_cv_experience_data:Association to many EMPLOYEE_CV_EXPERIENCE_DATA on employee_cv_experience_data.empl = $self;
     employee_education_detail: Association to many EMPLOYEE_EDUCATION_DETAIL on employee_education_detail.empl = $self;
     employee_professional_summary: Association to many EMPLOYEE_PROFESSIONAL_SUMMARY on employee_professional_summary.empl = $self;
 
@@ -78,12 +83,6 @@ entity EMPLOYEES
 
 }
 
-entity INDUSTRIES
-{
-    industry_cluster: String;
-    key industry_type: String;
-}
-
 entity CLUSTER 
 {
     key practice: String;
@@ -91,6 +90,35 @@ entity CLUSTER
     key leaf_skills: String;
     key horizon: String;         
 }
+
+entity INDUSTRIES
+{
+    industry_cluster: String;
+    key industry_type: String;
+}
+
+entity CUSTOMER
+{
+    key customer_name: String;
+}
+
+entity PRODUCT
+{
+    key product_name:String;
+}
+
+entity LANGUAGE
+{
+    key language: String;
+}
+
+entity COUNTRY
+{
+    key country_name: String;
+    country_flag: String;
+}
+
+
 // ------------------------------------ 4 ------------------------------------------------------//
 
 entity EMPLOYEE_SKILL_DETAIL
@@ -102,19 +130,53 @@ entity EMPLOYEE_SKILL_DETAIL
     exp_years: Integer;                     // 1              0
     exp_months: Integer;                    // 6              6      
     bEditable: Boolean default false;
-    btnEditable: Boolean default false;  
 }
 
 entity EMPLOYEE_INDUSTRIES_EXPERIENCE: cuid
 {
-    empl: Association to EMPLOYEES;         // 10000001        10000001
-    industry_cluster: String;
-    industry_type:String;                   // oData          Workflow
-    exp_years: Integer;                     // 1              0
-    exp_months: Integer;                    // 6              6      
+    empl: Association to EMPLOYEES;         // 10000001         10000001
+    industry_cluster: String;               // finance          finance
+    industry_type:String;                   // bny mellon       sbi   
+    exp_years: Integer;                     // 1                0
+    exp_months: Integer;                    // 6                6      
     bEditable: Boolean default false;
 }
 
+entity EMPLOYEE_CUSTOMER_EXPERIENCE: cuid
+{
+    empl: Association to EMPLOYEES;         // 10000001         10000001
+    customer_name: String;                  // P&G              HPE
+    exp_years: Integer;                     // 1                0
+    exp_months: Integer;                    // 6                6      
+    bEditable: Boolean default false;
+}
+
+entity EMPLOYEE_PRODUCT_EXPERIENCE: cuid
+{
+    empl: Association to EMPLOYEES;         // 10000001        10000001
+    product_name:String;                    // alexa           siri
+    exp_years: Integer;                     // 1               0
+    exp_months: Integer;                    // 6               6   
+    bEditable: Boolean default false;
+}
+
+entity EMPLOYEE_LANGUAGE_EXPERIENCE: cuid
+{
+    empl: Association to EMPLOYEES;         // 10000001        10000001
+    language:String;                        // English         Hindi
+    proficiency_rating: Integer;            // 1               0 
+    bEditable: Boolean default false;
+}
+
+entity EMPLOYEE_COUNTRY_EXPERIENCE: cuid
+{
+    empl: Association to EMPLOYEES;         // 10000001       10000001      
+    country_name: String;                   // India          USA
+    country_flag:String;                    // flag_url       flag_url 
+    exp_years: Integer;                     // 1              0
+    exp_months: Integer;                    // 6              6   
+    bEditable: Boolean default false;
+}
 
 entity CLUSTER_SKILL_DETAIL : cuid,managed
 {
@@ -141,22 +203,7 @@ entity EMPLOYEES2CLUSTER_SKILL_DETAIL: cuid,managed
     from_employee: Association to EMPLOYEES;
 }
 
-
-entity CLUSTER2LEAF_SKILLS
-{
-    clust: String;         // ABAP Advance  ABAP Advance
-    skill: Association  to LEAF_SKILLS;    // oData         workflow
-    
-}
-
-entity LEAF_SKILLS
-{
-    key leaf_skills: String;              // oData          workflow
-    leaf_cluster : Association to many CLUSTER2LEAF_SKILLS on leaf_cluster.skill= $self;
-}
-
 //-----------------------------------------------------------------------------------------------------------------//
-
 
 //Sitansu CV Create Entity
  
@@ -170,9 +217,9 @@ entity EMPLOYEE_CV_EXPERIENCE_DATA: cuid
     endDate:String
 }
 
-entity EMPLOYEE_EDUCATION_DETAIL
+entity EMPLOYEE_EDUCATION_DETAIL: cuid
 {
-    key empl: Association to EMPLOYEES;     // 10000001        10000001
+    empl: Association to EMPLOYEES;     // 10000001        10000001
     specialization: String;
     degree: String ;
     institute_name:String;
@@ -180,8 +227,8 @@ entity EMPLOYEE_EDUCATION_DETAIL
     endDate:String;
 }
 
-entity EMPLOYEE_PROFESSIONAL_SUMMARY 
+entity EMPLOYEE_PROFESSIONAL_SUMMARY: cuid
 {
-    key empl: Association  to EMPLOYEES;
+    empl: Association  to EMPLOYEES;
     professional_desc: String;
 }
