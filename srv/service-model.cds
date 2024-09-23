@@ -116,6 +116,13 @@ service main {
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_PROFESSIONAL_SUMMARY;
 
+    entity  Employee_Project_Summary @(
+        Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true}
+    }) as projection on sh.EMPLOYEE_PROJECT_SUMMARY;
+
     };
     
 

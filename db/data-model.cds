@@ -6,15 +6,19 @@ entity EMPLOYEES
 {   
 
     employee_skill_detail : Association to many EMPLOYEE_SKILL_DETAIL on employee_skill_detail.empl = $self;
+
+//--------------------------------------------  Experience --------------------------------------------------------------------//
     employee_industries_experience: Association to many EMPLOYEE_INDUSTRIES_EXPERIENCE on employee_industries_experience.empl = $self;
     employee_customer_experience: Association to many EMPLOYEE_CUSTOMER_EXPERIENCE on employee_customer_experience.empl = $self;
     employee_country_experience: Association to many EMPLOYEE_COUNTRY_EXPERIENCE on employee_country_experience.empl = $self;
     employee_product_experience: Association to many EMPLOYEE_PRODUCT_EXPERIENCE on employee_product_experience.empl = $self;
     employee_language_experience: Association to many EMPLOYEE_LANGUAGE_EXPERIENCE on employee_language_experience.empl = $self;
-    
+
+//-----------------------------------------------  CV  ---------------------------------------------------------------------//    
     employee_cv_experience_data:Association to many EMPLOYEE_CV_EXPERIENCE_DATA on employee_cv_experience_data.empl = $self;
     employee_education_detail: Association to many EMPLOYEE_EDUCATION_DETAIL on employee_education_detail.empl = $self;
     employee_professional_summary: Association to many EMPLOYEE_PROFESSIONAL_SUMMARY on employee_professional_summary.empl = $self;
+    employee_project_summary: Association to many EMPLOYEE_PROJECT_SUMMARY on employee_project_summary.empl = $self;
 
 //-----------------------------------------------------------------------------------------------------------------//
     to_cluster_skill_detail: Association to CLUSTER_SKILL_DETAIL;
@@ -49,9 +53,9 @@ entity EMPLOYEES
     resigned: String;
     practice: String;
     sub_practice: String; // Primary Skill Cluster -- According to RAMG
-    lti_experience: Integer;
-    sap_experience: Integer;
-    total_experience: Integer;
+    lti_experience: Double;
+    sap_experience: Double;
+    total_experience: Double;
     lwd: Date;
     resigned_on: Date;
 
@@ -105,16 +109,20 @@ entity CUSTOMER
 entity PRODUCT
 {
     key product_name:String;
+    product_description:String;
+    product_url:String;
 }
 
 entity LANGUAGE
 {
+    language_code:String;
     key language: String;
 }
 
 entity COUNTRY
 {
     key country_name: String;
+    country_code:String;
     country_flag: String;
 }
 
@@ -172,10 +180,10 @@ entity EMPLOYEE_COUNTRY_EXPERIENCE: cuid
 {
     empl: Association to EMPLOYEES;         // 10000001       10000001      
     country_name: String;                   // India          USA
-    country_flag:String;                    // flag_url       flag_url 
     exp_years: Integer;                     // 1              0
     exp_months: Integer;                    // 6              6   
     bEditable: Boolean default false;
+    country_flag:String;                    // flag_url       flag_url 
 }
 
 entity CLUSTER_SKILL_DETAIL : cuid,managed
@@ -231,4 +239,14 @@ entity EMPLOYEE_PROFESSIONAL_SUMMARY: cuid
 {
     empl: Association  to EMPLOYEES;
     professional_desc: String;
+}
+
+entity EMPLOYEE_PROJECT_SUMMARY : cuid {
+    
+    empl:Association to EMPLOYEES;
+    project_name: String;
+    startDate: String;
+    endDate: String;
+    technology_used: String;
+    description:String;
 }
