@@ -1,0 +1,10 @@
+# GET http://localhost:4004/odata/v4/main/skillFilter(filterData='AIF')
+
+
+GET http://localhost:4004/odata/v4/main/skillFilter(filterSkill='AIF',filterStatus='Billed',filterPractice='SAP-DIGITAL')
+
+###
+GET http://localhost:4004/odata/v4/main/Employee_Skill_Detail
+
+###
+GET http://localhost:4004/odata/v4/main/uniqueDataForFilter()

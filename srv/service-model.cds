@@ -1,130 +1,132 @@
-
 using schema as sh from '../db/data-model';
 
 service main {
 
-    entity Employees @(
-        Capabilities:{
-            InsertRestrictions : { Insertable:true},
-            UpdateRestrictions : { Updatable:true },
-            DeleteRestrictions : {Deletable:true},
-        }) as projection on sh.EMPLOYEES;
+    entity Employees @(Capabilities: {
+        InsertRestrictions: {Insertable: true},
+        UpdateRestrictions: {Updatable: true},
+        DeleteRestrictions: {Deletable: true},
+    }) as projection on sh.EMPLOYEES;
 
-    entity  Cluster @(
-        Capabilities: {
+    entity Cluster @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.CLUSTER;
 
-    entity  Industries @(
-        Capabilities: {
+    entity Industries @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.INDUSTRIES;
 
-    entity  Customer @(
-        Capabilities: {
+    entity Customer @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.CUSTOMER;
 
-    entity  Product @(
-        Capabilities: {
+    entity Product @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.PRODUCT;
 
-    entity  Language @(
-        Capabilities: {
+    entity Language @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.LANGUAGE;
 
-    entity  Country @(
-        Capabilities: {
+    entity Country @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.COUNTRY;
 
-    entity  Employee_Skill_Detail @(
-        Capabilities: {
+    entity Employee_Skill_Detail @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_SKILL_DETAIL;
 
-    entity  Employee_Industries_Experience @(
-        Capabilities: {
+    entity Employee_Industries_Experience @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_INDUSTRIES_EXPERIENCE;
 
-    entity  Employee_Customer_Experience @(
-        Capabilities: {
+    entity Employee_Customer_Experience @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_CUSTOMER_EXPERIENCE;
 
-    entity  Employee_Product_Experience @(
-        Capabilities: {
+    entity Employee_Product_Experience @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_PRODUCT_EXPERIENCE;
 
-    entity  Employee_Language_Experience @(
-        Capabilities: {
+    entity Employee_Language_Experience @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_LANGUAGE_EXPERIENCE;
 
-    entity  Employee_Country_Experience @(
-        Capabilities: {
+    entity Employee_Country_Experience @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_COUNTRY_EXPERIENCE;
 
-//--------------------------------------------Sitansu-----------------------------------------------------//
-     entity  Employee_CV_Experience_Data @(
-        Capabilities: {
+    //--------------------------------------------Sitansu-----------------------------------------------------//
+    entity Employee_CV_Experience_Data @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_CV_EXPERIENCE_DATA;
 
-    entity  Employee_Education_Detail @(
-        Capabilities: {
+    entity Employee_Education_Detail @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_EDUCATION_DETAIL;
 
-    entity  Employee_Professional_Summary @(
-        Capabilities: {
+    entity Employee_Professional_Summary @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_PROFESSIONAL_SUMMARY;
 
-    entity  Employee_Project_Summary @(
-        Capabilities: {
+    entity Employee_Project_Summary @(Capabilities: {
         InsertRestrictions: {Insertable: true},
         UpdateRestrictions: {Updatable: true},
         DeleteRestrictions: {Deletable: true}
     }) as projection on sh.EMPLOYEE_PROJECT_SUMMARY;
 
-    };
+    // function skillFilter(filterData : String ) returns array of Integer;
     
+    @odata.method: 'POST'
+    function skillFilter(
+        filterSkill : array of String ,
+        filterStatus : array of String ,
+        filterPractice : array of String 
+        ) returns many Employees;
+
+    type filterStructure{
+        selectedkey: String;
+        text:String;
+    }
+
+    function uniqueDataForFilter() returns {
+        uniqueSkill: many filterStructure;
+        uniqueBillingStatus: many filterStructure;
+        uniquePractice: many filterStructure;
+    };
+
+};
+
 
 //  @(restrict: [
 //     { grant: ['*'], to: 'Admin' },
