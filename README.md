@@ -44,7 +44,7 @@ File or Folder | Purpose
    ```bash
    npm install
 
-3. Preview Application:
+3. Preview Application, open terminal and navigate to root folder:
    ```bash
    npm start/npm run start-noflp
 
