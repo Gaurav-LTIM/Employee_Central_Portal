@@ -1,0 +1,79 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	
+	<Dialog
+	  title="Work Experience"
+	  id="editWorkExperience"
+	   >
+ 
+      <content>
+	   		<f:SimpleForm
+			   editable="true"
+			   layout="ResponsiveGridLayout"
+			            labelSpanXL="3"
+						labelSpanL="3"
+						labelSpanM="3"
+						labelSpanS="12"
+						adjustLabelSpan="false"
+						emptySpanXL="4"
+						emptySpanL="4"
+						emptySpanM="4"
+						emptySpanS="0"
+						columnsXL="1"
+						columnsL="1"
+						columnsM="1"
+						singleContainerFullSize="true" 
+						width="100%">
+                <f:content>
+				   <Label  text="Organization" />
+                   <Input id="edit_org" value="{EmployeeModel>company_name}"/>
+
+                  <CheckBox id="edit_currentcompany" text="Is this your current Company" select="onCurrentCompanySelection" />
+
+				   <Label  text="Designation" />
+                   <Input id="edit_designation" value="{EmployeeModel>role}"/>
+
+				   <Label  text="Job Profile" />
+                   <TextArea id="edit_jobProfile" placeholder="Enter Text" value="{EmployeeModel>domain}" growing="true" growingMaxLines="7" width="100%"/>
+                   
+				   <Label  text="Start Date" />
+				   <DatePicker
+					id="edit_startDate"
+					value="{EmployeeModel>startDate}"
+					change="handleChange"
+					class="sapUiSmallMarginBottom"/>
+
+					 <Label  text="End Date" visible="true"/>
+				   <DatePicker
+					id="edit_endDate"
+					visible="true"
+					value="{EmployeeModel>endDate}"
+					change="handleChange"
+					class="sapUiSmallMarginBottom" />
+				</f:content>
+	   		</f:SimpleForm>
+      </content>
+      <footer>
+	      <Toolbar>
+				<content>
+				    <ToolbarSpacer />
+	        		<Button
+					    icon="sap-icon://save" 
+						press="handleSaveWorkExp" 
+						tooltip="save"
+						type="Accept"/>	
+					<Button 
+					    icon="sap-icon://decline" 
+						tooltip="cancel"
+						press="onCancelWorkExpChanges"
+						type="Reject" />
+                </content>
+		 </Toolbar>	
+	  </footer>
+
+	
+	</Dialog>
+</core:FragmentDefinition>

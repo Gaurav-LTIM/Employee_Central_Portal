@@ -1,0 +1,90 @@
+<core:FragmentDefinition
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	
+	<Dialog
+	  title="Add Experience"
+	   >
+ 
+      <content>
+	   		<f:SimpleForm
+			   editable="true"
+			   layout="ResponsiveGridLayout"
+			            labelSpanXL="3"
+						labelSpanL="3"
+						labelSpanM="3"
+						labelSpanS="12"
+						adjustLabelSpan="false"
+						emptySpanXL="4"
+						emptySpanL="4"
+						emptySpanM="4"
+						emptySpanS="0"
+						columnsXL="1"
+						columnsL="1"
+						columnsM="1"
+						singleContainerFullSize="true" 
+						width="100%">
+                <f:content>
+				   <Label  text="Organization" />
+                   <Input id="workExp_org" value=""/>
+
+                  <CheckBox id="currentcompany" text="Is this your current Company" select="onCurrentCompanySelection" />
+
+				   <Label  text="Designation" />
+                   <Input id="designation" value=""/>
+
+				   <Label  text="Job Profile" />
+                   <TextArea id="jobProfile" placeholder="Enter Text" value="" growing="true" growingMaxLines="7" width="100%"/>
+                   
+				   <Label  text="Start Date" />
+				   <DatePicker
+					id="startDate"
+					value="{
+						'path':'/valueDP2',
+						'type':'sap.ui.model.type.Date',
+						'formatOptions': {
+							'pattern': 'yyyy-MM-dd'
+						}
+					}"
+					change="handleChange"
+					class="sapUiSmallMarginBottom"/>
+
+					 <Label  text="End Date" visible="true"/>
+				   <DatePicker
+					id="endDate"
+					visible="true"
+					value="{
+						'path':'/valueDP2',
+						'type':'sap.ui.model.type.Date',
+						'formatOptions': {
+							'pattern': 'yyyy-MM-dd'
+						}
+					}"
+					change="handleChange"
+					class="sapUiSmallMarginBottom" />
+				</f:content>
+	   		</f:SimpleForm>
+      </content>
+      <footer>
+	      <Toolbar>
+				<content>
+				    <ToolbarSpacer />
+	        		<Button
+					    icon="sap-icon://save" 
+						press="handleSaveWorkexp" 
+						tooltip="save"
+						type="Accept"/>	
+					<Button 
+					    icon="sap-icon://decline" 
+						tooltip="cancel"
+						press="onCancelWorkExpChanges"
+						type="Reject" />
+                </content>
+		 </Toolbar>	
+	  </footer>
+
+	
+	</Dialog>
+</core:FragmentDefinition>
