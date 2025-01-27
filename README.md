@@ -49,7 +49,7 @@ File or Folder | Purpose
    npm start/npm run start-noflp
 
 ## Key Learnings and Highlights
-- Integrated role-based access control using XSUAA for enhanced security.
+- extensively linked database design.
 - Automated resume generation with Puppeteer, improving efficiency.
 - Deployed application to SAP HANA Cloud with Cloud Foundry.
 
