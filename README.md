@@ -1,11 +1,10 @@
 # Employee Central Portal
 
 ## Overview
-The Employee Central Portal is a comprehensive application designed to manage user profiles, skills, and ratings with role-based access and automated document generation.
+This Portal is a comprehensive application designed to manage user profiles, skills, and ratings along with automated document generation.
 
 ## Features
 - User profile management with skill and rating updates.
-- Role-based access control using XSUAA.
 - Skill Screener Tab for competency-based resource allocation.
 - Automated PDF resume generation using Puppeteer.
 - Deployed to SAP HANA Cloud via Cloud Foundry.
@@ -24,33 +23,38 @@ The Employee Central Portal is a comprehensive application designed to manage us
 - Node.js installed.
 - SAP Fiori Tools installed.
 
+## Getting Started
+
+Welcome to your new project.
+It contains these folders and files, following our recommended project layout:
+
+File or Folder | Purpose
+---------|----------
+`app/` | content for UI frontends
+`db/` | Database and Domain Modelling
+`srv/` | service modelling and filtering logic
+`package.json` | project metadata and configuration
+
 ### Steps
 1. Clone the repository:
    ```bash
    git clone <repository-url>
 
-# Getting Started
+2. Navigate to the project folder and install dependencies:
+   ```bash
+   npm install
 
-Welcome to your new project.
+3. Preview Application:
+   ```bash
+   npm start/npm run start-noflp
 
-It contains these folders and files, following our recommended project layout:
+## Key Learnings and Highlights
+- Integrated role-based access control using XSUAA for enhanced security.
+- Automated resume generation with Puppeteer, improving efficiency.
+- Deployed application to SAP HANA Cloud with Cloud Foundry.
 
-File or Folder | Purpose
----------|----------
-`app/` | content for UI frontends goes here
-`db/` | your domain models and data go here
-`srv/` | your service models and code go here
-`package.json` | project metadata and configuration
-`readme.md` | this getting started guide
+## Future Enhancements
+- Add integration with external APIs for real-time skill updates.
+- Implement advanced analytics for tracking resource allocation trends.
+- Provide multilingual support for global users.
 
-
-## Next Steps
-
-- Open a new terminal and run `cds watch`
-- (in VS Code simply choose _**Terminal** > Run Task > cds watch_)
-- Start adding content, for example, a [db/schema.cds](db/schema.cds).
-
-
-## Learn More
-
-Learn more at https://cap.cloud.sap/docs/get-started/.
